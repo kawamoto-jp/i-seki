@@ -3,7 +3,7 @@
     <h2 class="title">I - s e k i</h2>
     <ul class="right_header">
       <li><a href="#">マッチングページ</a></li>
-      <li><a href="#">ログアウト</a></li>
+      <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%></li>
     </div>
   </div>
 </header>
