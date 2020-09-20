@@ -23,6 +23,7 @@
 | ---------------- | ---------- | ------------------------------ |
 | picture          | string     | null: false                    |
 | people_num       | integer    | null: false                    |
+| area_id          | integer    | null: false                    |
 | text             | text       | null: false                    |
 | user             | references | null: false, foreign_key: true |
 
