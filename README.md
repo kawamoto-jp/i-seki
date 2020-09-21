@@ -56,9 +56,10 @@
 
 ##  rooms テーブル
 
-| Column | Type   | Options     |
-| ------ | ------ | ----------- |
-| name   | string | null: false |
+| Column         | Type       | Options                        |
+| -------------- | ---------- | ------------------------------ |
+| name           | string     | null: false                    |
+| relationship   | references | null: false, foreign_key: true |
 
 ### Association
 
